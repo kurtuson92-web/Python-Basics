@@ -36,4 +36,15 @@ print(num2)
 # BONUS: convert 3.9 into an int. What happens to the decimal part?
 # thge decimal was not included in whole number
 
+#3
 
+name = input("What's your name? ")
+age = input("How old are you? ")   # this comes back as a STRING
+sage = str(age)
+
+future = int(age) + 5
+
+hobby = input("What's your favorite hobby? ")
+
+print(f"My Name is, {name},Im {age}, years old, and i love {hobby}")
+print(f"Im , {future} , after 5 years")
